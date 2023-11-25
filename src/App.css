@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  height: 10vh;
 }
 
 .main {
@@ -163,4 +162,24 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100vw;
+    margin: 0;
+    background-color: black;
+
+  }
+  
+  .main {
+    width: 80vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 10px;
+    margin: auto;
+  }
+  
 }
