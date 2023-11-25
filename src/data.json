@@ -1,0 +1,17 @@
+{
+    "users": [
+      {
+        "name": "Ritish",
+        "tasks": ["Task 1", "Task 2", "Task 3"]
+      },
+      {
+        "name": "Ram",
+        "tasks": ["Task A", "Task B", "Task C"]
+      },
+      {
+        "name": "Rahim",
+        "tasks": ["Task X", "Task Y", "Task Z"]
+      }
+    ]
+  }
+  

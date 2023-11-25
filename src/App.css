@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  height: 10vh;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-gap: 10px;
+}
+
+.left h3 {
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+.left {
+  height: 100%;
+  background-color: rgb(122, 122, 136);
+}
+
+.right {
+  color: white;
+  height: 100%;
+  background-color: rgb(185, 197, 184);
+
+}
+
+.right p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  padding-top: 1.5rem;
+  width: 100%;
+  margin-left: auto;
+  text-align: center;
+  background-color: rgb(160, 215, 160);
+}
+
+.profile .img {
+  background-color: #fff;
+  width: 124px;
+  margin: auto;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 60%;
+}
+
+.profile h2 {
+  margin-top: 10;
+}
+
+.profile img {
+  width: 96%;
+  height: 96%;
+  border-radius: 60%;
+  padding: 1rem;
+}
+
+.task {
+  width: 100%;
+}
+
+.container {
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 120%;
+  order: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.box button {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40%;
+}
+
+.addTask {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.addTask button {
+  color: white;
+  width: 70px;
+  height: 35px;
+  background-color: rgb(69, 184, 69);
+  border-radius: 20%;
+  margin-left: 5px;
+}
+
+input {
+  width: 40%;
+  height: 30px;
+  border-radius: 5%;
+}
+
+a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
+
+.notshow {
+  display: none;
+}
+
+.left li {
+  font-style: none;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.toggle {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+  padding: 0 10px;
+
+}
+
+.toggle img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
